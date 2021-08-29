@@ -65,7 +65,7 @@
         app:downloadingBackgroundColor="@color/colorPrimaryDark"
         app:circleColor = "@color/colorAccent"
         app:text = "Download"
-        app:downloadText = "@string/button_loading"
+        app:downloadText = "@string/button_loading_txt"
         app.textColor = "@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
          />

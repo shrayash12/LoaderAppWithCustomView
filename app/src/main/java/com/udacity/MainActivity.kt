@@ -50,11 +50,11 @@ class MainActivity : AppCompatActivity() {
             when (radioGroup.checkedRadioButtonId) {
                 radioGlide.id -> download(R.string.glide_txt, Constants.GLIDE_URL)
                 radioRetrofit.id -> download(
-                    R.string.loadApp_txt,
+                    R.string.retrofit_txt,
                     Constants.LOAD_APP_URL
                 )
                 radioLoadApp.id -> download(
-                    R.string.retrofit_txt,
+                    R.string.loadApp_txt,
                     Constants.RETROFIT_URL
                 )
             }
@@ -99,7 +99,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun download(title: Int, url: String) {
         downloadButton.downloadStartLoading()
-
         val request =
             DownloadManager.Request(Uri.parse(url))
                 .setTitle(getString(title))

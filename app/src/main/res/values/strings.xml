@@ -4,22 +4,22 @@
     <string name="action_settings">Settings</string>
 
 
-    <string name="notification_title">Udacity: Android Kotlin Nanodegree </string>
-    <string name="notification_description">The Project 3 repository is downloaded</string>
-    <string name="notification_button">Check the status</string>
+    <string name="notification_title_txt">Udacity: Android Kotlin Nanodegree </string>
+    <string name="notification_description_txt">The Project %d repository is downloaded</string>
+    <string name="notification_button_txt">Check the status</string>
 
-    <string name="button_name">Click me</string>
-    <string name="button_loading">We are loading </string>
-    <string name="title_activity_detail">DetailActivity</string>
+    <string name="button_txt">Click me</string>
+    <string name="button_loading_txt">We are loading </string>
+    <string name="title_activity_detail_txt">DetailActivity</string>
 
-    <string name="download">Download</string>
-    <string name="fail">fail</string>
-    <string name="success">success</string>
-    <string name="status">Status</string>
-    <string name="name">File Name</string>
-    <string name="ok">Ok</string>
+    <string name="download_txt">Download</string>
+    <string name="fail_txt">fail</string>
+    <string name="success_txt">success</string>
+    <string name="status_txt">Status</string>
+    <string name="name_txt">File Name</string>
+    <string name="ok_txt">Ok</string>
     <string name="please_select_the_file_download">Please select the file to download</string>
-    <string name="description">Description</string>
+    <string name="description_txt">Description</string>
 
 
     <string name="glide_txt">Glide - Image Loading Library by BumpTech</string>

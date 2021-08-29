@@ -19,9 +19,9 @@ class LoadingButton @JvmOverloads constructor(
     private var buttonDownloadingBackgroundColor = 0
     private var circleColor = 0
     private var progress = 0
-    private var displayedText = resources.getString(R.string.download);
-    private var downloadDisplayText = resources.getString(R.string.download);
-    private var loadingDisplayedText = resources.getString(R.string.button_loading);
+    private var displayedText = resources.getString(R.string.download_txt);
+    private var downloadDisplayText = resources.getString(R.string.download_txt);
+    private var loadingDisplayedText = resources.getString(R.string.button_loading_txt);
 
     private var buttonTextColor = Color.WHITE
 

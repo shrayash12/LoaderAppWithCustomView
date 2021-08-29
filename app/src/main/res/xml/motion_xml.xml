@@ -6,7 +6,7 @@
         motion:autoTransition="animateToEnd"
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@+id/start"
-        motion:duration="5000"></Transition>
+        motion:duration="2000" />
 
     <ConstraintSet android:id="@+id/start">
         <Constraint
@@ -16,13 +16,13 @@
             android:layout_marginStart="@dimen/fab_margin"
             android:layout_marginTop="@dimen/fab_margin"
             android:alpha="0.0"
-            android:text="@string/name"
+            android:text="@string/name_txt"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent" />
 
         <Constraint
-            android:id="@+id/name"
+            android:id="@+id/tvName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fab_margin"
@@ -39,20 +39,20 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fab_margin"
             android:alpha="0.0"
-            android:text="@string/status"
+            android:text="@string/status_txt"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toBottomOf="@+id/name" />
+            motion:layout_constraintTop_toBottomOf="@+id/tvName" />
 
 
         <Constraint
-            android:id="@+id/status"
+            android:id="@+id/tvStatus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:alpha="0.0"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintStart_toStartOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/tvName"
             motion:layout_constraintTop_toTopOf="@+id/txt_status" />
 
         <Constraint
@@ -61,29 +61,29 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fab_margin"
             android:alpha="0.0"
-            android:text="@string/status"
+            android:text="@string/status_txt"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toBottomOf="@+id/status"/>
+            motion:layout_constraintTop_toBottomOf="@+id/tvStatus"/>
 
         <Constraint
-            android:id="@+id/description"
+            android:id="@+id/tvDescription"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintStart_toStartOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/tvName"
             motion:layout_constraintTop_toTopOf="@+id/txt_description"
             android:alpha="0.0"/>
 
         <Constraint
-            android:id="@+id/btn_back"
+            android:id="@+id/buttonBack"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:alpha="0.0"
             android:background="@color/colorAccent"
-            android:text="@string/ok"
+            android:text="@string/ok_txt"
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintHorizontal_bias="0.498"
@@ -99,13 +99,13 @@
             android:layout_marginStart="@dimen/fab_margin"
             android:layout_marginTop="@dimen/fab_margin"
             android:alpha="1.0"
-            android:text="@string/name"
+            android:text="@string/name_txt"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent" />
 
         <Constraint
-            android:id="@+id/name"
+            android:id="@+id/tvName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fab_margin"
@@ -122,19 +122,19 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fab_margin"
             android:alpha="1.0"
-            android:text="@string/status"
+            android:text="@string/status_txt"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toBottomOf="@+id/name" />
+            motion:layout_constraintTop_toBottomOf="@+id/tvName" />
 
         <Constraint
-            android:id="@+id/status"
+            android:id="@+id/tvStatus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:alpha="1.0"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintStart_toStartOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/tvName"
             motion:layout_constraintTop_toTopOf="@+id/txt_status" />
 
         <Constraint
@@ -143,27 +143,27 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fab_margin"
             android:alpha="1.0"
-            android:text="@string/status"
+            android:text="@string/status_txt"
             android:textSize="@dimen/default_text_size"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toBottomOf="@+id/status"/>
+            motion:layout_constraintTop_toBottomOf="@+id/tvStatus"/>
 
         <Constraint
-            android:id="@+id/description"
+            android:id="@+id/tvDescription"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/default_text_size"
-            motion:layout_constraintStart_toStartOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/tvName"
             motion:layout_constraintTop_toTopOf="@+id/txt_description"
             android:alpha="1.0" />
         <Constraint
-            android:id="@+id/btn_back"
+            android:id="@+id/buttonBack"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:alpha="1.0"
             android:background="@color/colorAccent"
-            android:text="@string/ok"
+            android:text="@string/ok_txt"
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintHorizontal_bias="0.498"

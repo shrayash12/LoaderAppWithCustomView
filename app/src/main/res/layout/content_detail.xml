@@ -15,14 +15,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/fab_margin"
         android:layout_marginTop="@dimen/fab_margin"
-        android:text="@string/name"
+        android:text="@string/name_txt"
         android:textSize="@dimen/default_text_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/name" />
+        tools:text="@string/name_txt" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/tvName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/fab_margin"
@@ -31,7 +31,7 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toEndOf="@+id/txt_name"
         app:layout_constraintTop_toTopOf="@+id/txt_name"
-        tools:text="@string/name"
+        tools:text="@string/name_txt"
         tools:visibility="visible" />
 
     <TextView
@@ -39,21 +39,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/fab_margin"
-        android:text="@string/status"
+        android:text="@string/status_txt"
         android:textSize="@dimen/default_text_size"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name"
-        tools:text="@string/status" />
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:text="@string/status_txt" />
 
     <TextView
-        android:id="@+id/status"
+        android:id="@+id/tvStatus"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textSize="@dimen/default_text_size"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/tvName"
         app:layout_constraintTop_toTopOf="@+id/txt_status"
-        tools:text="@string/status"
+        tools:text="@string/status_txt"
         tools:visibility="visible" />
 
     <TextView
@@ -61,27 +61,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/fab_margin"
-        android:text="@string/description"
+        android:text="@string/description_txt"
         android:textSize="@dimen/default_text_size"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/status" />
+        app:layout_constraintTop_toBottomOf="@+id/tvStatus" />
 
     <TextView
-        android:id="@+id/description"
+        android:id="@+id/tvDescription"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textSize="@dimen/description_text_size"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/tvName"
         app:layout_constraintTop_toTopOf="@+id/txt_description" />
 
     <Button
-        android:id="@+id/btn_back"
+        android:id="@+id/buttonBack"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:background="@color/colorAccent"
-        android:text="@string/ok"
+        android:text="@string/ok_txt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
